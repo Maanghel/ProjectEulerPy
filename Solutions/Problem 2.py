@@ -17,4 +17,5 @@ def fibonacci(number1= 1, number2= 2, sum_fibonacci = 0):
 
 #########################   Main    ################################
 
-print(fibonacci())
+if __name__ == "__main__":
+    print(fibonacci())

@@ -20,4 +20,7 @@ def difference() -> int:
     square_of_sum = sum(range(1, 101))
     return square_of_sum**2 - sum_of_squares
 
-print(difference())
+#########################   Main    ################################
+
+if __name__ == "__main__":
+    print(difference())
